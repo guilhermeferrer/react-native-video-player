@@ -1,20 +1,19 @@
 import React, { useState } from 'react';
 import { Container, Icon } from './styles';
 import { immersiveModeOn, immersiveModeOff } from 'react-native-android-immersive-mode';
+import { lockToLandscape, lockToPortrait } from 'react-native-orientation';
 
-export default function Orientation() {
-    const [isFullscreen, setFullscreen] = useState(false);
-
-    function portrait() {
+export default function Orientation({ isFullscreen, setFullscreen }) {
+    function landscape() {
         lockToLandscape();
         immersiveModeOn();
-        setFullscreen(false);
+        setFullscreen(true);
     }
 
-    function landscape() {
+    function portrait() {
         lockToPortrait();
         immersiveModeOff();
-        setFullscreen(true);
+        setFullscreen(false);
     }
 
     return (
@@ -22,4 +21,4 @@ export default function Orientation() {
             <Icon name={isFullscreen ? 'contract' : 'expand'} />
         </Container>
     )
-} ƒ
+}

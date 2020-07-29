@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container } from './styles';
+import { Container, Progress } from './styles';
 
 import {
     useAnimatedStyle,
@@ -8,7 +8,14 @@ import {
 
 export default function ProgressBar({ progress, length }) {
 
-    const width = useDerivedValue(() => getProgress(progress, length));
+    function getProgress(value, total) {
+        'worklet';
+        return (100 * value) / total;
+    }
+
+    const width = useDerivedValue(() => {
+        return getProgress(progress.value, length.value);
+    });
 
     const style = useAnimatedStyle(() => {
         return {
@@ -16,14 +23,9 @@ export default function ProgressBar({ progress, length }) {
         };
     });
 
-    function getProgress(value, total) {
-        'worklet';
-        return (100 * value) / total;
-    }
-
     return (
-        <Container onPress={isFullscreen ? portrait : landscape}>
+        <Container>
             <Progress {...{ style }} />
         </Container>
     )
-} ƒ
+}

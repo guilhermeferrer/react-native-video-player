@@ -11,6 +11,7 @@ export default function VideoScreen() {
     const [paused, setPause] = useState(false);
     const [loading, setLoading] = useState(false);
     const [reload, setReaload] = useState(false);
+    const [isFullscreen, setFullscreen] = useState(false);
     const opacity = useSharedValue(0);
     const progress = useSharedValue(0);
     const length = useSharedValue(0);
@@ -31,7 +32,7 @@ export default function VideoScreen() {
     function scheduleFade() {
         timer.current = setTimeout(() => {
             opacity.value = 0;
-        }, 3000);
+        }, 2000);
     }
 
     function restart() {
@@ -64,10 +65,26 @@ export default function VideoScreen() {
     }
 
     return (
-        <Container>
+        <Container {...{ isFullscreen }}>
             <Video {...{ progress, length, paused, setLoading, end }} />
             <Loading {...{ loading }} />
-            <Controls {...{ opacity, progress, paused, loading, play, pause, reload, restart, hideControls, showControls }} />
+            <Controls
+                {...{
+                    opacity,
+                    progress,
+                    length,
+                    paused,
+                    loading,
+                    play,
+                    pause,
+                    reload,
+                    restart,
+                    hideControls,
+                    showControls,
+                    isFullscreen,
+                    setFullscreen
+                }}
+            />
         </Container>
     )
 }

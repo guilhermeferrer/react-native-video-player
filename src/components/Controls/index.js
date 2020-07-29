@@ -5,7 +5,24 @@ import { TapGestureHandler } from 'react-native-gesture-handler';
 
 import { Container, Controls, Button, Icon } from './styles';
 
-export default function ControlView({ opacity, paused, loading, play, pause, reload, restart, hideControls, showControls }) {
+import Orientarion from '../Orientarion';
+import ProgressBar from '../ProgressBar';
+
+export default function ControlView({
+    opacity,
+    progress,
+    length,
+    paused,
+    loading,
+    play,
+    pause,
+    reload,
+    restart,
+    hideControls,
+    showControls,
+    isFullscreen,
+    setFullscreen
+}) {
 
     const tapGestureHandler = useAnimatedGestureHandler({
         onEnd: () => {
@@ -54,13 +71,14 @@ export default function ControlView({ opacity, paused, loading, play, pause, rel
                         <View {...{ style }} />
                     </TouchableWithoutFeedback>
                     {renderButton()}
+                    <Orientarion
+                        {...{
+                            isFullscreen,
+                            setFullscreen
+                        }}
+                    />
+                    <ProgressBar {...{ progress, length }} />
                 </Controls>
-            }
-            {
-                opacity.value === 0 &&
-                <TouchableWithoutFeedback onPress={showControls}>
-                    <View {...{ style: { ...style, backgroundColor: 'red' } }} />
-                </TouchableWithoutFeedback>
             }
         </Container >
     )

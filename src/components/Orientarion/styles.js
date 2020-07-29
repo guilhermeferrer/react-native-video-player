@@ -14,5 +14,5 @@ export const Container = styled(RectButton)`
 
 export const Icon = styled(IonIcon)`
     color: white;
-    font-size: 22;
+    font-size: 22px;
 `;
