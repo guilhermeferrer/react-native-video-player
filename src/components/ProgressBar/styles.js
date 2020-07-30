@@ -10,7 +10,7 @@ export const Container = styled.View`
     right: 45px;
     border-radius: 1px;
 `;
-
+    
 export const Progress = styled(Animated.View)`
     height: 100%;
     background-color: red;

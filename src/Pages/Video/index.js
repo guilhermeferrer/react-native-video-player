@@ -17,6 +17,7 @@ export default function VideoScreen() {
     const length = useSharedValue(0);
     const width = useSharedValue(0);
     const timer = useRef();
+    const playerRef = useRef();
 
     function showControls() {
         opacity.value = 1;
@@ -60,13 +61,25 @@ export default function VideoScreen() {
         progress.value = 0;
     }
 
+    function forward10Sec() {
+        unscheduleFade();
+        scheduleFade();
+        playerRef.current.seek(progress.value + 10);
+    }
+
+    function backward10Sec() {
+        unscheduleFade();
+        scheduleFade();
+        playerRef.current.seek(progress.value - 10);
+    }
+
     function unscheduleFade() {
         clearTimeout(timer.current);
     }
 
     return (
         <Container {...{ isFullscreen }}>
-            <Video {...{ progress, length, paused, setLoading, end }} />
+            <Video {...{ progress, length, paused, setLoading, end, playerRef }} />
             <Loading {...{ loading }} />
             <Controls
                 {...{
@@ -82,7 +95,9 @@ export default function VideoScreen() {
                     hideControls,
                     showControls,
                     isFullscreen,
-                    setFullscreen
+                    setFullscreen,
+                    forward10Sec,
+                    backward10Sec
                 }}
             />
         </Container>

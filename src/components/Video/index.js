@@ -2,10 +2,10 @@ import React from 'react';
 import { Container } from './styles';
 import Video from 'react-native-video';
 
-export default function VideoImage({ progress, length, paused, setLoading, end }) {
+export default function VideoImage({ progress, length, paused, setLoading, end, playerRef }) {
 
-    const uri = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4";
-    //const uri = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4";
+    //const uri = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4";
+    const uri = "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4";
 
     return (
         <Container>
@@ -17,6 +17,7 @@ export default function VideoImage({ progress, length, paused, setLoading, end }
                 onLoad={() => setLoading(false)}
                 repeat={true}
                 style={{ flex: 1 }}
+                ref={playerRef}
                 onProgress={event => {
                     length.value = event.seekableDuration;
                     if (progress.value + 0.25 < event.seekableDuration)

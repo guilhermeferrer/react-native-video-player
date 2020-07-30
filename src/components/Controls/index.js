@@ -1,12 +1,12 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
 import Animated, { useAnimatedGestureHandler, Easing, useAnimatedStyle, withTiming } from 'react-native-reanimated';
-import { TapGestureHandler } from 'react-native-gesture-handler';
 
-import { Container, Controls, Button, Icon } from './styles';
+import { Container, Controls, Button, Icon, Row } from './styles';
 
 import Orientarion from '../Orientarion';
 import ProgressBar from '../ProgressBar';
+import SeekButton from '../SeekButton';
 
 export default function ControlView({
     opacity,
@@ -21,15 +21,10 @@ export default function ControlView({
     hideControls,
     showControls,
     isFullscreen,
-    setFullscreen
+    setFullscreen,
+    forward10Sec,
+    backward10Sec
 }) {
-
-    const tapGestureHandler = useAnimatedGestureHandler({
-        onEnd: () => {
-            opacity.value = 1;
-        }
-    });
-
     const config = {
         duration: 500,
         easing: Easing.bezier(0.5, 0.01, 0, 1),
@@ -70,7 +65,16 @@ export default function ControlView({
                     }}>
                         <View {...{ style }} />
                     </TouchableWithoutFeedback>
-                    {renderButton()}
+                    <Row {...{ isFullscreen }}>
+                        <SeekButton
+                            inverted
+                            onPress={backward10Sec}
+                        />
+                        {renderButton()}
+                        <SeekButton
+                            onPress={forward10Sec}
+                        />
+                    </Row>
                     <Orientarion
                         {...{
                             isFullscreen,

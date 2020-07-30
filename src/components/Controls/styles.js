@@ -23,3 +23,9 @@ export const Controls = styled(Animated.View)`
 export const Icon = styled(IonIcon)`
     color: white;
 `;
+
+export const Row = styled.View`
+    width: ${props => props.isFullscreen ? '60%' : '80%'};
+    flex-direction: row;
+    justify-content: space-between;
+`;
