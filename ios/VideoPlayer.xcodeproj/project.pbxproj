@@ -7,35 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* Reanimated2PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Reanimated2PlaygroundTests.m */; };
+		00E356F31AD99517003FC87E /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VideoPlayerTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		27CB0404F78BE3BA6455AEA3 /* libPods-Reanimated2Playground-Reanimated2PlaygroundTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1D00B43AB4CE042631C6E /* libPods-Reanimated2Playground-Reanimated2PlaygroundTests.a */; };
+		2291AD1AB14C4BE0BB3E5482 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78A62FABB9A14DA98A33A2CA /* Feather.ttf */; };
+		27CB0404F78BE3BA6455AEA3 /* libPods-VideoPlayer-VideoPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C1D00B43AB4CE042631C6E /* libPods-VideoPlayer-VideoPlayerTests.a */; };
+		28553713B91646EDB42C95C4 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82D93DFD41264BA1A7EEE5B2 /* Octicons.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		2DCD954D1E0B4F2C00145EB5 /* Reanimated2PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Reanimated2PlaygroundTests.m */; };
-		36A5E6F70477EB02325684AA /* libPods-Reanimated2Playground-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A863E84B081F3C9ED55A3075 /* libPods-Reanimated2Playground-tvOS.a */; };
-		3A1964CFE466229C718B604B /* libPods-Reanimated2Playground-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 260A9085A15D0DDB8E29B19C /* libPods-Reanimated2Playground-tvOSTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A79A5B14F050F0D05CE76C90 /* libPods-Reanimated2Playground.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 777A970B0ED24E5B55325898 /* libPods-Reanimated2Playground.a */; };
-		D4C51E7B255A4CC69BB5D97D /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511B6537AAAE4D2597D12D82 /* AntDesign.ttf */; };
-		E305081383494A8D9ABC32C0 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6152583A737642BEAEA7B456 /* Entypo.ttf */; };
-		BB09844E6D254F439676B089 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C87ECF45922D48508BAA2421 /* EvilIcons.ttf */; };
-		2291AD1AB14C4BE0BB3E5482 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 78A62FABB9A14DA98A33A2CA /* Feather.ttf */; };
-		D33A912CFB87467583D1A362 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC20267002D40D08168B567 /* FontAwesome.ttf */; };
-		ACBADE4295564F89B22C16F2 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEB10EC999044048B0FD9801 /* FontAwesome5_Brands.ttf */; };
+		2DCD954D1E0B4F2C00145EB5 /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* VideoPlayerTests.m */; };
+		36A5E6F70477EB02325684AA /* libPods-VideoPlayer-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A863E84B081F3C9ED55A3075 /* libPods-VideoPlayer-tvOS.a */; };
+		3A1964CFE466229C718B604B /* libPods-VideoPlayer-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 260A9085A15D0DDB8E29B19C /* libPods-VideoPlayer-tvOSTests.a */; };
 		6D041E9750094E649C5395D7 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45B6492D6391424FB4061F25 /* FontAwesome5_Regular.ttf */; };
+		7CA81D33744E4AB9B682BA9C /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB44A8CBDF4D0B9C8F9884 /* Foundation.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		93DD5C8995EE4D828F8837BF /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE60F945884790A1816880 /* SimpleLineIcons.ttf */; };
+		962086B05D924813A7C0CE25 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93656EC0FA924A36BA402368 /* MaterialIcons.ttf */; };
+		A79A5B14F050F0D05CE76C90 /* libPods-VideoPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 777A970B0ED24E5B55325898 /* libPods-VideoPlayer.a */; };
+		ACBADE4295564F89B22C16F2 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEB10EC999044048B0FD9801 /* FontAwesome5_Brands.ttf */; };
 		B4615D340C1C47E7A8ECE772 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A36BF5F535E643DA8436ADF9 /* FontAwesome5_Solid.ttf */; };
 		B8FF6C6BDDA1489B839466E5 /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CAF8595A23A487F90C6B629 /* Fontisto.ttf */; };
-		7CA81D33744E4AB9B682BA9C /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CAB44A8CBDF4D0B9C8F9884 /* Foundation.ttf */; };
-		D2F7CAFC161646BB90D14B64 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33F1C078F5E49A58BA0E09E /* Ionicons.ttf */; };
+		BB09844E6D254F439676B089 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C87ECF45922D48508BAA2421 /* EvilIcons.ttf */; };
 		C079607B36E947AFBF5284AA /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 35CA81FE52864702BAC8912A /* MaterialCommunityIcons.ttf */; };
-		962086B05D924813A7C0CE25 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 93656EC0FA924A36BA402368 /* MaterialIcons.ttf */; };
-		28553713B91646EDB42C95C4 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82D93DFD41264BA1A7EEE5B2 /* Octicons.ttf */; };
-		93DD5C8995EE4D828F8837BF /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE60F945884790A1816880 /* SimpleLineIcons.ttf */; };
+		D2F7CAFC161646BB90D14B64 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D33F1C078F5E49A58BA0E09E /* Ionicons.ttf */; };
+		D33A912CFB87467583D1A362 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DC20267002D40D08168B567 /* FontAwesome.ttf */; };
+		D4C51E7B255A4CC69BB5D97D /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 511B6537AAAE4D2597D12D82 /* AntDesign.ttf */; };
 		DAC1195666AF48FFA4ECEFB0 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2C2B4422870E41B3964106BE /* Zocial.ttf */; };
+		E305081383494A8D9ABC32C0 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6152583A737642BEAEA7B456 /* Entypo.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,61 +44,61 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = Reanimated2Playground;
+			remoteInfo = VideoPlayer;
 		};
 		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "Reanimated2Playground-tvOS";
+			remoteInfo = "VideoPlayer-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* Reanimated2PlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Reanimated2PlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* VideoPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* Reanimated2PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reanimated2PlaygroundTests.m; sourceTree = "<group>"; };
-		02C1D00B43AB4CE042631C6E /* libPods-Reanimated2Playground-Reanimated2PlaygroundTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reanimated2Playground-Reanimated2PlaygroundTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C64116DAA3E2F926868053C /* Pods-Reanimated2Playground-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground-tvOSTests/Pods-Reanimated2Playground-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* Reanimated2Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reanimated2Playground.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Reanimated2Playground/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = Reanimated2Playground/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Reanimated2Playground/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Reanimated2Playground/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Reanimated2Playground/main.m; sourceTree = "<group>"; };
-		260A9085A15D0DDB8E29B19C /* libPods-Reanimated2Playground-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reanimated2Playground-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* Reanimated2Playground-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Reanimated2Playground-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* Reanimated2Playground-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Reanimated2Playground-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F96D29BED0974366FCA6EDF /* Pods-Reanimated2Playground-Reanimated2PlaygroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground-Reanimated2PlaygroundTests.release.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground-Reanimated2PlaygroundTests/Pods-Reanimated2Playground-Reanimated2PlaygroundTests.release.xcconfig"; sourceTree = "<group>"; };
-		4E1E9E53176B5EEADA3E4321 /* Pods-Reanimated2Playground-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground-tvOS/Pods-Reanimated2Playground-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		6458A5BEC9F14367661283DC /* Pods-Reanimated2Playground-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground-tvOSTests/Pods-Reanimated2Playground-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		777A970B0ED24E5B55325898 /* libPods-Reanimated2Playground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reanimated2Playground.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Reanimated2Playground/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A863E84B081F3C9ED55A3075 /* libPods-Reanimated2Playground-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reanimated2Playground-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C20E1C37C6299CBA924755FD /* Pods-Reanimated2Playground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground.debug.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground/Pods-Reanimated2Playground.debug.xcconfig"; sourceTree = "<group>"; };
-		C5F3C68AC6E0ED4F75F16FE1 /* Pods-Reanimated2Playground-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground-tvOS/Pods-Reanimated2Playground-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		C94BB88E80F306C7637D0D85 /* Pods-Reanimated2Playground-Reanimated2PlaygroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground-Reanimated2PlaygroundTests.debug.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground-Reanimated2PlaygroundTests/Pods-Reanimated2Playground-Reanimated2PlaygroundTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E4728F721B91F59ECF03FB09 /* Pods-Reanimated2Playground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reanimated2Playground.release.xcconfig"; path = "Target Support Files/Pods-Reanimated2Playground/Pods-Reanimated2Playground.release.xcconfig"; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* VideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerTests.m; sourceTree = "<group>"; };
+		02C1D00B43AB4CE042631C6E /* libPods-VideoPlayer-VideoPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoPlayer-VideoPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C64116DAA3E2F926868053C /* Pods-VideoPlayer-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayer-tvOSTests/Pods-VideoPlayer-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = VideoPlayer/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = VideoPlayer/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = VideoPlayer/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = VideoPlayer/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = VideoPlayer/main.m; sourceTree = "<group>"; };
+		260A9085A15D0DDB8E29B19C /* libPods-VideoPlayer-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoPlayer-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C2B4422870E41B3964106BE /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* VideoPlayer-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VideoPlayer-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* VideoPlayer-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VideoPlayer-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F96D29BED0974366FCA6EDF /* Pods-VideoPlayer-VideoPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer-VideoPlayerTests.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayer-VideoPlayerTests/Pods-VideoPlayer-VideoPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		35CA81FE52864702BAC8912A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		45B6492D6391424FB4061F25 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		4ADE60F945884790A1816880 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		4CAB44A8CBDF4D0B9C8F9884 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		4E1E9E53176B5EEADA3E4321 /* Pods-VideoPlayer-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayer-tvOS/Pods-VideoPlayer-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		511B6537AAAE4D2597D12D82 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		5DC20267002D40D08168B567 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		6152583A737642BEAEA7B456 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		6458A5BEC9F14367661283DC /* Pods-VideoPlayer-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayer-tvOSTests/Pods-VideoPlayer-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		777A970B0ED24E5B55325898 /* libPods-VideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A62FABB9A14DA98A33A2CA /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		7CAF8595A23A487F90C6B629 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = VideoPlayer/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82D93DFD41264BA1A7EEE5B2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		93656EC0FA924A36BA402368 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		A36BF5F535E643DA8436ADF9 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		A863E84B081F3C9ED55A3075 /* libPods-VideoPlayer-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VideoPlayer-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEB10EC999044048B0FD9801 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		C20E1C37C6299CBA924755FD /* Pods-VideoPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		C5F3C68AC6E0ED4F75F16FE1 /* Pods-VideoPlayer-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer-tvOS.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayer-tvOS/Pods-VideoPlayer-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		C87ECF45922D48508BAA2421 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		C94BB88E80F306C7637D0D85 /* Pods-VideoPlayer-VideoPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer-VideoPlayerTests.debug.xcconfig"; path = "Target Support Files/Pods-VideoPlayer-VideoPlayerTests/Pods-VideoPlayer-VideoPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D33F1C078F5E49A58BA0E09E /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		E4728F721B91F59ECF03FB09 /* Pods-VideoPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayer.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		511B6537AAAE4D2597D12D82 /* AntDesign.ttf */ = {isa = PBXFileReference; name = "AntDesign.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6152583A737642BEAEA7B456 /* Entypo.ttf */ = {isa = PBXFileReference; name = "Entypo.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C87ECF45922D48508BAA2421 /* EvilIcons.ttf */ = {isa = PBXFileReference; name = "EvilIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		78A62FABB9A14DA98A33A2CA /* Feather.ttf */ = {isa = PBXFileReference; name = "Feather.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		5DC20267002D40D08168B567 /* FontAwesome.ttf */ = {isa = PBXFileReference; name = "FontAwesome.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		BEB10EC999044048B0FD9801 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Brands.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		45B6492D6391424FB4061F25 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Regular.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A36BF5F535E643DA8436ADF9 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5_Solid.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7CAF8595A23A487F90C6B629 /* Fontisto.ttf */ = {isa = PBXFileReference; name = "Fontisto.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4CAB44A8CBDF4D0B9C8F9884 /* Foundation.ttf */ = {isa = PBXFileReference; name = "Foundation.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D33F1C078F5E49A58BA0E09E /* Ionicons.ttf */ = {isa = PBXFileReference; name = "Ionicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		35CA81FE52864702BAC8912A /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; name = "MaterialCommunityIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		93656EC0FA924A36BA402368 /* MaterialIcons.ttf */ = {isa = PBXFileReference; name = "MaterialIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		82D93DFD41264BA1A7EEE5B2 /* Octicons.ttf */ = {isa = PBXFileReference; name = "Octicons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		4ADE60F945884790A1816880 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; name = "SimpleLineIcons.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2C2B4422870E41B3964106BE /* Zocial.ttf */ = {isa = PBXFileReference; name = "Zocial.ttf"; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27CB0404F78BE3BA6455AEA3 /* libPods-Reanimated2Playground-Reanimated2PlaygroundTests.a in Frameworks */,
+				27CB0404F78BE3BA6455AEA3 /* libPods-VideoPlayer-VideoPlayerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79A5B14F050F0D05CE76C90 /* libPods-Reanimated2Playground.a in Frameworks */,
+				A79A5B14F050F0D05CE76C90 /* libPods-VideoPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A5E6F70477EB02325684AA /* libPods-Reanimated2Playground-tvOS.a in Frameworks */,
+				36A5E6F70477EB02325684AA /* libPods-VideoPlayer-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,20 +130,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A1964CFE466229C718B604B /* libPods-Reanimated2Playground-tvOSTests.a in Frameworks */,
+				3A1964CFE466229C718B604B /* libPods-VideoPlayer-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* Reanimated2PlaygroundTests */ = {
+		00E356EF1AD99517003FC87E /* VideoPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* Reanimated2PlaygroundTests.m */,
+				00E356F21AD99517003FC87E /* VideoPlayerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = Reanimated2PlaygroundTests;
+			path = VideoPlayerTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -154,7 +154,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* Reanimated2Playground */ = {
+		13B07FAE1A68108700A75B9A /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
@@ -165,7 +165,7 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = Reanimated2Playground;
+			name = VideoPlayer;
 			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
@@ -173,10 +173,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				777A970B0ED24E5B55325898 /* libPods-Reanimated2Playground.a */,
-				02C1D00B43AB4CE042631C6E /* libPods-Reanimated2Playground-Reanimated2PlaygroundTests.a */,
-				A863E84B081F3C9ED55A3075 /* libPods-Reanimated2Playground-tvOS.a */,
-				260A9085A15D0DDB8E29B19C /* libPods-Reanimated2Playground-tvOSTests.a */,
+				777A970B0ED24E5B55325898 /* libPods-VideoPlayer.a */,
+				02C1D00B43AB4CE042631C6E /* libPods-VideoPlayer-VideoPlayerTests.a */,
+				A863E84B081F3C9ED55A3075 /* libPods-VideoPlayer-tvOS.a */,
+				260A9085A15D0DDB8E29B19C /* libPods-VideoPlayer-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* Reanimated2Playground */,
+				13B07FAE1A68108700A75B9A /* VideoPlayer */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* Reanimated2PlaygroundTests */,
+				00E356EF1AD99517003FC87E /* VideoPlayerTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				F028705D412B6F17B5EDB186 /* Pods */,
@@ -207,31 +207,16 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* Reanimated2Playground.app */,
-				00E356EE1AD99517003FC87E /* Reanimated2PlaygroundTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* Reanimated2Playground-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* Reanimated2Playground-tvOSTests.xctest */,
+				13B07F961A680F5B00A75B9A /* VideoPlayer.app */,
+				00E356EE1AD99517003FC87E /* VideoPlayerTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* VideoPlayer-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* VideoPlayer-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F028705D412B6F17B5EDB186 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C20E1C37C6299CBA924755FD /* Pods-Reanimated2Playground.debug.xcconfig */,
-				E4728F721B91F59ECF03FB09 /* Pods-Reanimated2Playground.release.xcconfig */,
-				C94BB88E80F306C7637D0D85 /* Pods-Reanimated2Playground-Reanimated2PlaygroundTests.debug.xcconfig */,
-				2F96D29BED0974366FCA6EDF /* Pods-Reanimated2Playground-Reanimated2PlaygroundTests.release.xcconfig */,
-				4E1E9E53176B5EEADA3E4321 /* Pods-Reanimated2Playground-tvOS.debug.xcconfig */,
-				C5F3C68AC6E0ED4F75F16FE1 /* Pods-Reanimated2Playground-tvOS.release.xcconfig */,
-				6458A5BEC9F14367661283DC /* Pods-Reanimated2Playground-tvOSTests.debug.xcconfig */,
-				0C64116DAA3E2F926868053C /* Pods-Reanimated2Playground-tvOSTests.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		ED363C28E651447D9D91E69F /* Resources */ = {
-			isa = "PBXGroup";
+			isa = PBXGroup;
 			children = (
 				511B6537AAAE4D2597D12D82 /* AntDesign.ttf */,
 				6152583A737642BEAEA7B456 /* Entypo.ttf */,
@@ -251,15 +236,30 @@
 				2C2B4422870E41B3964106BE /* Zocial.ttf */,
 			);
 			name = Resources;
-			sourceTree = "<group>";
 			path = "";
+			sourceTree = "<group>";
+		};
+		F028705D412B6F17B5EDB186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C20E1C37C6299CBA924755FD /* Pods-VideoPlayer.debug.xcconfig */,
+				E4728F721B91F59ECF03FB09 /* Pods-VideoPlayer.release.xcconfig */,
+				C94BB88E80F306C7637D0D85 /* Pods-VideoPlayer-VideoPlayerTests.debug.xcconfig */,
+				2F96D29BED0974366FCA6EDF /* Pods-VideoPlayer-VideoPlayerTests.release.xcconfig */,
+				4E1E9E53176B5EEADA3E4321 /* Pods-VideoPlayer-tvOS.debug.xcconfig */,
+				C5F3C68AC6E0ED4F75F16FE1 /* Pods-VideoPlayer-tvOS.release.xcconfig */,
+				6458A5BEC9F14367661283DC /* Pods-VideoPlayer-tvOSTests.debug.xcconfig */,
+				0C64116DAA3E2F926868053C /* Pods-VideoPlayer-tvOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* Reanimated2PlaygroundTests */ = {
+		00E356ED1AD99517003FC87E /* VideoPlayerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Reanimated2PlaygroundTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */;
 			buildPhases = (
 				02D968063F3B5904C40ACB34 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -272,14 +272,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = Reanimated2PlaygroundTests;
-			productName = Reanimated2PlaygroundTests;
-			productReference = 00E356EE1AD99517003FC87E /* Reanimated2PlaygroundTests.xctest */;
+			name = VideoPlayerTests;
+			productName = VideoPlayerTests;
+			productReference = 00E356EE1AD99517003FC87E /* VideoPlayerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* Reanimated2Playground */ = {
+		13B07F861A680F5B00A75B9A /* VideoPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Reanimated2Playground" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VideoPlayer" */;
 			buildPhases = (
 				C780A2774B822DA65EE84700 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -293,14 +293,14 @@
 			);
 			dependencies = (
 			);
-			name = Reanimated2Playground;
-			productName = Reanimated2Playground;
-			productReference = 13B07F961A680F5B00A75B9A /* Reanimated2Playground.app */;
+			name = VideoPlayer;
+			productName = VideoPlayer;
+			productReference = 13B07F961A680F5B00A75B9A /* VideoPlayer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* Reanimated2Playground-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* VideoPlayer-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Reanimated2Playground-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VideoPlayer-tvOS" */;
 			buildPhases = (
 				27033808FF4C2C5D46951A91 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
@@ -313,14 +313,14 @@
 			);
 			dependencies = (
 			);
-			name = "Reanimated2Playground-tvOS";
-			productName = "Reanimated2Playground-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* Reanimated2Playground-tvOS.app */;
+			name = "VideoPlayer-tvOS";
+			productName = "VideoPlayer-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* VideoPlayer-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* Reanimated2Playground-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* VideoPlayer-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Reanimated2Playground-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VideoPlayer-tvOSTests" */;
 			buildPhases = (
 				694C5FE5213BE80043D4BC02 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -332,9 +332,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "Reanimated2Playground-tvOSTests";
-			productName = "Reanimated2Playground-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* Reanimated2Playground-tvOSTests.xctest */;
+			name = "VideoPlayer-tvOSTests";
+			productName = "VideoPlayer-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* VideoPlayer-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -364,7 +364,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Reanimated2Playground" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VideoPlayer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -377,10 +377,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* Reanimated2Playground */,
-				00E356ED1AD99517003FC87E /* Reanimated2PlaygroundTests */,
-				2D02E47A1E0B4A5D006451C7 /* Reanimated2Playground-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* Reanimated2Playground-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* VideoPlayer */,
+				00E356ED1AD99517003FC87E /* VideoPlayerTests */,
+				2D02E47A1E0B4A5D006451C7 /* VideoPlayer-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* VideoPlayer-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -465,7 +465,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Reanimated2Playground-Reanimated2PlaygroundTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayer-VideoPlayerTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -487,7 +487,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Reanimated2Playground-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayer-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -514,16 +514,48 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reanimated2Playground-Reanimated2PlaygroundTests/Pods-Reanimated2Playground-Reanimated2PlaygroundTests-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayer-VideoPlayerTests/Pods-VideoPlayer-VideoPlayerTests-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reanimated2Playground-Reanimated2PlaygroundTests/Pods-Reanimated2Playground-Reanimated2PlaygroundTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoPlayer-VideoPlayerTests/Pods-VideoPlayer-VideoPlayerTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		66FD67A10CF3F73DBD0A3E6F /* [CP] Copy Pods Resources */ = {
@@ -532,16 +564,48 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Reanimated2Playground/Pods-Reanimated2Playground-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer-resources.sh",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
 				"${PODS_CONFIGURATION_BUILD_DIR}/React-Core/AccessibilityResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AccessibilityResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reanimated2Playground/Pods-Reanimated2Playground-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoPlayer/Pods-VideoPlayer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		694C5FE5213BE80043D4BC02 /* [CP] Check Pods Manifest.lock */ = {
@@ -559,7 +623,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Reanimated2Playground-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayer-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -581,7 +645,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Reanimated2Playground-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-VideoPlayer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -633,7 +697,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* Reanimated2PlaygroundTests.m in Sources */,
+				00E356F31AD99517003FC87E /* VideoPlayerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -659,7 +723,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* Reanimated2PlaygroundTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* VideoPlayerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -668,12 +732,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* Reanimated2Playground */;
+			target = 13B07F861A680F5B00A75B9A /* VideoPlayer */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* Reanimated2Playground-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* VideoPlayer-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -681,14 +745,14 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C94BB88E80F306C7637D0D85 /* Pods-Reanimated2Playground-Reanimated2PlaygroundTests.debug.xcconfig */;
+			baseConfigurationReference = C94BB88E80F306C7637D0D85 /* Pods-VideoPlayer-VideoPlayerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = Reanimated2PlaygroundTests/Info.plist;
+				INFOPLIST_FILE = VideoPlayerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -698,17 +762,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reanimated2Playground.app/Reanimated2Playground";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2F96D29BED0974366FCA6EDF /* Pods-Reanimated2Playground-Reanimated2PlaygroundTests.release.xcconfig */;
+			baseConfigurationReference = 2F96D29BED0974366FCA6EDF /* Pods-VideoPlayer-VideoPlayerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = Reanimated2PlaygroundTests/Info.plist;
+				INFOPLIST_FILE = VideoPlayerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -718,20 +782,20 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reanimated2Playground.app/Reanimated2Playground";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer.app/VideoPlayer";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C20E1C37C6299CBA924755FD /* Pods-Reanimated2Playground.debug.xcconfig */;
+			baseConfigurationReference = C20E1C37C6299CBA924755FD /* Pods-VideoPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J5FM626PE2;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = Reanimated2Playground/Info.plist;
+				INFOPLIST_FILE = VideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -739,7 +803,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Reanimated2Playground;
+				PRODUCT_NAME = VideoPlayer;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -748,13 +812,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4728F721B91F59ECF03FB09 /* Pods-Reanimated2Playground.release.xcconfig */;
+			baseConfigurationReference = E4728F721B91F59ECF03FB09 /* Pods-VideoPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J5FM626PE2;
-				INFOPLIST_FILE = Reanimated2Playground/Info.plist;
+				INFOPLIST_FILE = VideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -762,7 +826,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = Reanimated2Playground;
+				PRODUCT_NAME = VideoPlayer;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -770,7 +834,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E1E9E53176B5EEADA3E4321 /* Pods-Reanimated2Playground-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 4E1E9E53176B5EEADA3E4321 /* Pods-VideoPlayer-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -781,14 +845,14 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Reanimated2Playground-tvOS/Info.plist";
+				INFOPLIST_FILE = "VideoPlayer-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Reanimated2Playground-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VideoPlayer-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -798,7 +862,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C5F3C68AC6E0ED4F75F16FE1 /* Pods-Reanimated2Playground-tvOS.release.xcconfig */;
+			baseConfigurationReference = C5F3C68AC6E0ED4F75F16FE1 /* Pods-VideoPlayer-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -809,14 +873,14 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Reanimated2Playground-tvOS/Info.plist";
+				INFOPLIST_FILE = "VideoPlayer-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Reanimated2Playground-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VideoPlayer-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -826,7 +890,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6458A5BEC9F14367661283DC /* Pods-Reanimated2Playground-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 6458A5BEC9F14367661283DC /* Pods-VideoPlayer-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -836,24 +900,24 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Reanimated2Playground-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "VideoPlayer-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Reanimated2Playground-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VideoPlayer-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reanimated2Playground-tvOS.app/Reanimated2Playground-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer-tvOS.app/VideoPlayer-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C64116DAA3E2F926868053C /* Pods-Reanimated2Playground-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = 0C64116DAA3E2F926868053C /* Pods-VideoPlayer-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -863,17 +927,17 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Reanimated2Playground-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "VideoPlayer-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.Reanimated2Playground-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.VideoPlayer-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reanimated2Playground-tvOS.app/Reanimated2Playground-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoPlayer-tvOS.app/VideoPlayer-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -994,7 +1058,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "Reanimated2PlaygroundTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1003,7 +1067,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Reanimated2Playground" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "VideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1012,7 +1076,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Reanimated2Playground-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VideoPlayer-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1021,7 +1085,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "Reanimated2Playground-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "VideoPlayer-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1030,7 +1094,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "Reanimated2Playground" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "VideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

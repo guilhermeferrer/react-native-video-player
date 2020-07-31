@@ -3,12 +3,12 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'Reanimated2Playground' do
+target 'VideoPlayer' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'Reanimated2PlaygroundTests' do
+  target 'VideoPlayerTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -23,10 +23,10 @@ target 'Reanimated2Playground' do
   end
 end
 
-target 'Reanimated2Playground-tvOS' do
-  # Pods for Reanimated2Playground-tvOS
+target 'VideoPlayer-tvOS' do
+  # Pods for VideoPlayer-tvOS
 
-  target 'Reanimated2Playground-tvOSTests' do
+  target 'VideoPlayer-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

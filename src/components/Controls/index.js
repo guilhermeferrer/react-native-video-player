@@ -1,6 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, createRef } from 'react';
 import { StyleSheet, TouchableWithoutFeedback, View } from 'react-native';
-import Animated, { useAnimatedGestureHandler, Easing, useAnimatedStyle, withTiming } from 'react-native-reanimated';
+import Animated,
+{
+    useAnimatedGestureHandler,
+    Easing, useAnimatedStyle,
+    withTiming
+} from 'react-native-reanimated';
+import { TapGestureHandler } from 'react-native-gesture-handler';
 
 import { Container, Controls, Button, Icon, Row } from './styles';
 
@@ -30,60 +36,80 @@ export default function ControlView({
         easing: Easing.bezier(0.5, 0.01, 0, 1),
     };
 
+    const name = reload ? 'reload' : paused ? 'play' : 'pause';
+    const onPress = reload ? restart : paused ? play : pause;
+
+    console.log(paused);
+
+    const buttomGestureHandler = useAnimatedGestureHandler({
+        onEnd: () => {
+            console.log(paused);
+            onPress();
+        }
+    });
+
+    const doubleTapLeft = createRef();
+    const doubleTapRight = createRef();
+    const centerButton = createRef();
+
     const style = StyleSheet.absoluteFillObject;
 
     const styledControl = useAnimatedStyle(() => {
         return {
             opacity: withTiming(opacity.value, config),
-            zIndex: opacity.value === 1 ? 10 : -100
+            //zIndex: opacity.value === 1 ? 10 : -100
         }
     });
 
-    function renderButton() {
-        const name = reload ? 'reload' : paused ? 'play' : 'pause';
-        const onPress = reload ? restart : paused ? play : pause;
-
-        return (
-            <Button {...{ onPress }}>
-                <Icon
-                    {...{ name }}
-                    size={40}
-                />
-            </Button>
-        )
-    }
+    const onGestureHandler = useAnimatedGestureHandler({
+        onEnd: () => {
+            if (opacity.value === 1)
+                hideControls();
+            else
+                showControls();
+        }
+    })
 
     return (
-        <Container {...{ style }}>
-            {!loading &&
-                <Controls style={[style, styledControl]}>
-                    <TouchableWithoutFeedback onPress={() => {
-                        if (opacity.value === 1)
-                            hideControls();
-                        else
-                            showControls();
-                    }}>
-                        <View {...{ style }} />
-                    </TouchableWithoutFeedback>
-                    <Row {...{ isFullscreen }}>
-                        <SeekButton
-                            inverted
-                            onPress={backward10Sec}
+        <TapGestureHandler
+            onGestureEvent={onGestureHandler}
+            waitFor={[doubleTapLeft, doubleTapRight, centerButton]}
+        >
+            <Container {...{ style }}>
+                {!loading &&
+                    <Controls style={[style, styledControl]}>
+                        <Row>
+                            <SeekButton
+                                inverted
+                                onPress={backward10Sec}
+                                reference={doubleTapLeft}
+                            />
+                            <TapGestureHandler
+                                onGestureEvent={buttomGestureHandler}
+                                ref={centerButton}
+                            >
+                                <Button>
+                                    <Icon
+                                        {...{ name }}
+                                        size={40}
+                                    />
+                                </Button>
+                            </TapGestureHandler>
+                            <SeekButton
+                                onPress={forward10Sec}
+                                reference={doubleTapRight}
+                            />
+                        </Row>
+                        <Orientarion
+                            {...{
+                                isFullscreen,
+                                setFullscreen
+                            }}
                         />
-                        {renderButton()}
-                        <SeekButton
-                            onPress={forward10Sec}
-                        />
-                    </Row>
-                    <Orientarion
-                        {...{
-                            isFullscreen,
-                            setFullscreen
-                        }}
-                    />
-                    <ProgressBar {...{ progress, length }} />
-                </Controls>
-            }
-        </Container >
+                        <ProgressBar {...{ progress, length }} />
+                    </Controls>
+                }
+            </Container >
+        </TapGestureHandler>
     )
 }

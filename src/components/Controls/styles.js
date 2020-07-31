@@ -3,9 +3,9 @@ import { RectButton } from 'react-native-gesture-handler';
 import Animated from 'react-native-reanimated';
 import IonIcon from 'react-native-vector-icons/Ionicons';
 
-export const Container = styled.View``;
+export const Container = styled(Animated.View)``;
 
-export const Button = styled(RectButton)`
+export const Button = styled(Animated.View)`
     width: 65px;
     height: 65px;
     justify-content: center;
@@ -25,7 +25,9 @@ export const Icon = styled(IonIcon)`
 `;
 
 export const Row = styled.View`
-    width: ${props => props.isFullscreen ? '60%' : '80%'};
+    width: 100%;
+    height: 100%;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 `;
