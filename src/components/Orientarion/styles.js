@@ -1,8 +1,11 @@
 import styled from 'styled-components';
 import { RectButton } from 'react-native-gesture-handler';
 import IonIcon from 'react-native-vector-icons/Ionicons';
+import Animated from 'react-native-reanimated';
 
-export const Container = styled(RectButton)`
+const Button = Animated.createAnimatedComponent(RectButton);
+
+export const Container = styled(Button)`
     width: 40px;
     height: 40px;
     position: absolute;

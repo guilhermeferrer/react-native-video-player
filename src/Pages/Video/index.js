@@ -47,10 +47,11 @@ export default function VideoScreen() {
         scheduleFade();
     }
 
-    function pause() {
+    function pause(shouldSchedule = true) {
         setPause(true);
         unscheduleFade();
-        scheduleFade();
+        if (shouldSchedule)
+            scheduleFade();
     }
 
     function end() {
@@ -80,7 +81,6 @@ export default function VideoScreen() {
     return (
         <Container {...{ isFullscreen }}>
             <Video {...{ progress, length, paused, setLoading, end, playerRef }} />
-            <Loading {...{ loading }} />
             <Controls
                 {...{
                     opacity,
@@ -97,9 +97,11 @@ export default function VideoScreen() {
                     isFullscreen,
                     setFullscreen,
                     forward10Sec,
-                    backward10Sec
+                    backward10Sec,
+                    playerRef
                 }}
             />
+            <Loading {...{ loading }} />
         </Container>
     )
 }

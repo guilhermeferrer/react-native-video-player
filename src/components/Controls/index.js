@@ -29,22 +29,29 @@ export default function ControlView({
     isFullscreen,
     setFullscreen,
     forward10Sec,
-    backward10Sec
+    backward10Sec,
+    playerRef
 }) {
     const config = {
         duration: 500,
         easing: Easing.bezier(0.5, 0.01, 0, 1),
     };
 
-    const name = reload ? 'reload' : paused ? 'play' : 'pause';
-    const onPress = reload ? restart : paused ? play : pause;
-
-    console.log(paused);
-
-    const buttomGestureHandler = useAnimatedGestureHandler({
+    const playGestureHandler = useAnimatedGestureHandler({
         onEnd: () => {
-            console.log(paused);
-            onPress();
+            play();
+        }
+    });
+
+    const pauseGestureHandler = useAnimatedGestureHandler({
+        onEnd: () => {
+            pause();
+        }
+    });
+
+    const restartGestureHandler = useAnimatedGestureHandler({
+        onEnd: () => {
+            restart();
         }
     });
 
@@ -54,10 +61,9 @@ export default function ControlView({
 
     const style = StyleSheet.absoluteFillObject;
 
-    const styledControl = useAnimatedStyle(() => {
+    const buttonStyle = useAnimatedStyle(() => {
         return {
-            opacity: withTiming(opacity.value, config),
-            //zIndex: opacity.value === 1 ? 10 : -100
+            opacity: withTiming(opacity.value, config)
         }
     });
 
@@ -68,7 +74,58 @@ export default function ControlView({
             else
                 showControls();
         }
-    })
+    });
+
+    function renderPlayButtom() {
+        if (!paused || reload) return null;
+        return (
+            <TapGestureHandler
+                onGestureEvent={playGestureHandler}
+                ref={centerButton}
+            >
+                <Button>
+                    <Icon
+                        name={'play'}
+                        size={40}
+                    />
+                </Button>
+            </TapGestureHandler>
+        )
+    }
+
+    function renderPauseButton() {
+        if (paused) return null;
+        return (
+            <TapGestureHandler
+                onGestureEvent={pauseGestureHandler}
+                ref={centerButton}
+            >
+                <Button>
+                    <Icon
+                        name={'pause'}
+                        size={40}
+                    />
+                </Button>
+            </TapGestureHandler>
+        )
+    }
+
+    function renderRestartButtom() {
+        if (!reload) return null;
+        return (
+            <TapGestureHandler
+                onGestureEvent={restartGestureHandler}
+                ref={centerButton}
+            >
+                <Button>
+                    <Icon
+                        name={'reload'}
+                        size={40}
+                    />
+                </Button>
+            </TapGestureHandler>
+        )
+    }
 
     return (
         <TapGestureHandler
@@ -76,39 +133,34 @@ export default function ControlView({
             waitFor={[doubleTapLeft, doubleTapRight, centerButton]}
         >
             <Container {...{ style }}>
-                {!loading &&
-                    <Controls style={[style, styledControl]}>
-                        <Row>
-                            <SeekButton
-                                inverted
-                                onPress={backward10Sec}
-                                reference={doubleTapLeft}
-                            />
-                            <TapGestureHandler
-                                onGestureEvent={buttomGestureHandler}
-                                ref={centerButton}
-                            >
-                                <Button>
-                                    <Icon
-                                        {...{ name }}
-                                        size={40}
-                                    />
-                                </Button>
-                            </TapGestureHandler>
-                            <SeekButton
-                                onPress={forward10Sec}
-                                reference={doubleTapRight}
-                            />
-                        </Row>
-                        <Orientarion
-                            {...{
-                                isFullscreen,
-                                setFullscreen
-                            }}
+                <Controls style={[style]}>
+                    <Row>
+                        <SeekButton
+                            inverted
+                            onPress={backward10Sec}
+                            reference={doubleTapLeft}
+                            {...{ opacity }}
                         />
-                        <ProgressBar {...{ progress, length }} />
-                    </Controls>
-                }
+                        <Animated.View style={buttonStyle}>
+                            {!loading && renderPauseButton()}
+                            {!loading && renderPlayButtom()}
+                            {!loading && renderRestartButtom()}
+                        </Animated.View>
+                        <SeekButton
+                            onPress={forward10Sec}
+                            reference={doubleTapRight}
+                            {...{ opacity }}
+                        />
+                    </Row>
+                    <Orientarion
+                        {...{
+                            isFullscreen,
+                            setFullscreen,
+                            opacity
+                        }}
+                    />
+                    <ProgressBar {...{ progress, length, opacity, play, pause, playerRef }} />
+                </Controls>
             </Container >
         </TapGestureHandler>
     )

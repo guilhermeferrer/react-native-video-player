@@ -8,14 +8,13 @@ import Animated, {
     useDerivedValue,
     interpolate,
     Extrapolate,
-    sequence,
-    repeat
+    sequence
 } from 'react-native-reanimated';
 import { TapGestureHandler } from 'react-native-gesture-handler';
 
 import { SeekButton, TimeQuantity, Prev, Next, RunText } from './styles';
 
-export default function ControlView({ inverted, onPress, reference }) {
+export default function ControlView({ inverted, onPress, reference, opacity }) {
     const animation = useSharedValue(0);
     const translation = useSharedValue(0);
 
@@ -71,7 +70,8 @@ export default function ControlView({ inverted, onPress, reference }) {
                 {
                     rotate: `${rotate.value}deg`
                 }
-            ]
+            ],
+            opacity: withTiming(opacity.value, config)
         }
     });
 

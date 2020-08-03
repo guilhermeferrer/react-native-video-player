@@ -20,6 +20,12 @@ export default function VideoImage({ progress, length, paused, setLoading, end, 
                 ref={playerRef}
                 onProgress={event => {
                     length.value = event.seekableDuration;
+
+                    if (progress.value === event.currentTime)
+                        setLoading(true);
+                    else
+                        setLoading(false);
+
                     if (progress.value + 0.25 < event.seekableDuration)
                         return progress.value = event.currentTime;
 
